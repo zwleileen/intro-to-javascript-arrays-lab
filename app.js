@@ -72,3 +72,17 @@ console.log("  buzz:", buzz);
 console.log("  fizzbuzz:", fizzbuzz);
 
 // Exercise 13
+const numArrays = [
+  [100, 5, 23],
+  [15, 21, 72, 9],
+  [45, 66],
+  [7, 81, 90],
+];
+const numList = [];
+let i = numArrays[0].length;
+for (let j = 0; j < numArrays.length - 1; j++) {
+  numList.push(numArrays[i][j]);
+}
+console.log("Exercise 13 result:", numList);
+
+// Exercise 14
