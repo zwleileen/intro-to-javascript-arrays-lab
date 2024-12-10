@@ -86,3 +86,14 @@ for (let j = 0; j < numArrays.length - 1; j++) {
 console.log("Exercise 13 result:", numList);
 
 // Exercise 14
+const num = numArrays[2][1];
+console.log("Exercise 14 result:", num);
+
+// Exercise 15
+let total = 0;
+numArrays.forEach((numArray) => {
+  numArray.forEach((element) => {
+    total += element;
+  });
+});
+console.log("Exercise 15 result:\n", total);
