@@ -79,8 +79,8 @@ const numArrays = [
   [7, 81, 90],
 ];
 const numList = [];
-let i = numArrays[0].length;
-for (let j = 0; j < numArrays.length - 1; j++) {
+let i = numArrays.length - 1; //returns index 3 which is last column index
+for (let j = 0; j < numArrays[0].length; j++) {
   numList.push(numArrays[i][j]);
 }
 console.log("Exercise 13 result:", numList);
